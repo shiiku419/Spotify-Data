@@ -1,0 +1,46 @@
+{
+	"name": "bib",
+	"displayName": "bibtexLanguage",
+	"description": "Syntax highlighting for bibtex files",
+	"version": "0.3.0",
+	"publisher": "phr0s",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"icon": "bib.png",
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "bibtex",
+				"aliases": [
+					"BibTeX",
+					"bibtex"
+				],
+				"extensions": [
+					".bib"
+				],
+				"configuration": "./bibtex.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "bibtex",
+				"scopeName": "text.bibtex",
+				"path": "./syntaxes/bibtex.tmLanguage"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "11c88da5-fc24-4fe6-a00d-b1ddef4943ca",
+		"publisherId": "79179a57-83e3-4536-ba7b-658ed60472a1",
+		"publisherDisplayName": "phr0s",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1660999094123
+	}
+}
